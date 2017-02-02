@@ -13,7 +13,7 @@ Optionally, it supplies a [syntax](doc/pipeline.md) for clean, concise code:
  
 ```jl
 wordcount(filename) = @p readstring filename | lines | map split | flatten | length
-# note: use readsting on 0.5, readall on 0.4
+# note: use readstring on 0.5, readall on 0.4
 ```
  
 #### Memory Layout 
